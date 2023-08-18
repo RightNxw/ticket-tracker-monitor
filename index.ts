@@ -32,4 +32,4 @@ const monitorEvent = async (): Promise<void> => {
 
 monitorEvent();
 
-setInterval(monitorEvent, 30 * 60 * 1000);
+setInterval(monitorEvent, 12 * 60 * 60 * 1000);
